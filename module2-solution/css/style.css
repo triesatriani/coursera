@@ -1,0 +1,108 @@
+/*********Base styles **********/
+
+h1{
+  text-align: center;
+}
+#box1 {
+  width: 310px;
+  height: 145px;
+  background-color: gray;
+  font-family: serif;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  padding: 30px 5px 10px 5px;
+}
+#box2{
+  width: 310px;
+  height: 145px;
+  background-color: gray;
+  font-family: serif;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  padding: 30px 5px 10px 5px;
+}
+#box3{
+  width: 310px;
+  height: 145px;
+  background-color: gray;
+  font-family: open sans, serif;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  padding: 30px 5px 10px 5px;
+}
+#p1{
+  width: 95px;
+  height: 22px;
+  background-color: #ffb3b3;
+  margin: 0px;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+#p2{
+  width: 95px;
+  height: 22px;
+  background-color: maroon;
+  color: white;
+  margin: 0px;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+#p3{
+  width: 95px;
+  height: 23px;
+  background-color: #ffcc99;
+  margin: 0px;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right: 0;
+  
+}
+div{
+  float: left;
+  padding: 5px;
+  position: relative;
+  top: 60px;
+}
+
+/************* Large devices only *********/
+@media (min-width: 992px){
+  #box1 {
+    width: 31%;
+  }
+  #box2 {
+    width: 31%;
+  }
+  #box3 {
+    width: 31%;
+  }
+  
+}
+
+/********** Medium devices only ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #box1 {
+    width: 44%;
+  }
+  #box2 {
+    width: 44%;
+  }
+  #box3 {
+    width: 90%;
+      }
